@@ -1,0 +1,2 @@
+- Install [Go](https://golang.org/doc/install)
+- `go run` + filename
