@@ -38,9 +38,6 @@ func main() {
 
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	index := m
-	if m < n && m == 0 {
-		index = 0
-	}
 	for _, num2 := range nums2 {
 		if index == len(nums1) {
 			break
